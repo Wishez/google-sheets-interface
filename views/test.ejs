@@ -1,0 +1,26 @@
+<% include partials/header %>
+
+<div class="container">
+    <h2>There are cells from a sheet</h2>
+    <section>
+      <div class="cells">
+        <%_ cells.forEach(function(cell, index){ -%>
+          <h3><%= cell %></h3>   
+        <%_ }); -%>
+      </div>
+
+      <ul>
+        <%_ rows.forEach(function(row){ -%>
+          <li>
+              <%_ row.forEach(function(cell){ -%>
+                <span><%= cell %>, </span>
+              <%_ }); -%>
+          </li>
+        <%_ }); -%>
+      </ul>
+    </section>
+    
+
+</div>
+
+<% include partials/footer %>

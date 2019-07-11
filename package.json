@@ -1,0 +1,22 @@
+{
+  "name": "google-sheets-interface",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.17.1",
+    "googleapis": "^39.2.0",
+    "gs": "0.0.2",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1",
+    "readline": "^1.3.0",
+    "request": "^2.88.0"
+  }
+}
